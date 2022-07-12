@@ -1,10 +1,10 @@
 ;
 //asignar un nombre y versión al cache
-const CACHE_NAME = 'v1_cache_credisys',
+const CACHE_NAME = 'static',
   urlsToCache = [
     './',
-    'https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css',
-    'https://use.fontawesome.com/releases/v5.1.0/css/all.css',
+    'https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css',
+    'https://fonts.googleapis.com/css?family=Quicksand',
   ]
 
 //durante la fase de instalación, generalmente se almacena en caché los activos estáticos
